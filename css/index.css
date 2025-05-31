@@ -54,7 +54,8 @@ body {
 }
 
 .container {
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
 .viewp-block {
