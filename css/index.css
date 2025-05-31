@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+    margin: 0 auto;
+    background-color: black;
+}
+
+.header-container {
+    width: 100%;
+    min-height: 425px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-svg {
+    margin-left: 50px;
+}
+
+.container {
+    justify-content: space-around;
+}
+
+.viewp-block {
+    max-width: 660px;
+    min-height: 410px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.747) 25%, transparent),
+    url(/img/1block.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.viewp-back-content {
+    flex-direction: column;
+    align-items: start;
+    max-width: 50%;
+    height: 100%;
+    padding: 20px;
+}
